@@ -81,14 +81,11 @@ tr.ours { background: var(--yellow); }
 .contact :focus-visible { outline-color: var(--yellow); }
 
 .more { padding-top: 120px; }
-.more h2, .now h2 { margin: 0 0 32px; font-weight: 900; font-size: clamp(40px, 5.4vw, 72px); line-height: .95; letter-spacing: -.04em; }
+.more h2 { margin: 0 0 32px; font-weight: 900; font-size: clamp(40px, 5.4vw, 72px); line-height: .95; letter-spacing: -.04em; }
 .list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 48px; }
 .list li { border-top: 3px solid var(--ink); padding: 16px 0 22px; }
 .list a { font-weight: 800; font-size: 21px; text-decoration-thickness: 3px; text-underline-offset: 4px; text-decoration-color: var(--yellow); }
 .list span { display: block; margin-top: 4px; font-size: 17px; }
-.now { background: var(--yellow); margin-top: 120px; padding: 96px 0; }
-.now p { margin: 0; font-size: clamp(20px, 2.2vw, 26px); line-height: 1.45; max-width: 44ch; }
-.contact { margin-top: 0; }
 .contact .foot { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 40px 0 0; font-size: 17px; }
 .foot a { color: var(--paper); text-underline-offset: 4px; }
 .foot span { color: #bdbdbd; }
@@ -170,7 +167,6 @@ tr.ours { background: var(--yellow); }
   .panel img { box-shadow: 8px 8px 0 var(--yellow); }
   .more { padding-top: 88px; }
   .list { grid-template-columns: minmax(0, 1fr); }
-  .now { margin-top: 88px; padding: 72px 0; }
 }
 /* after the 820px block, so it wins */
 @media (max-width: 400px) {
